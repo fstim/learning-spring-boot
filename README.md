@@ -56,8 +56,3 @@ Regarder SpringBoot Management Console
 
 Questions pour Régis
 ====================
-SpringBoot scan automatiquement tous les packages (pour les classes annotées '@Component') ?
-Problème avec generateGitProperties quand on essaie d'enrichir '/info' :
-    plugins {
-        id "com.gorylenko.gradle-git-properties" version "1.4.17"
-    }
