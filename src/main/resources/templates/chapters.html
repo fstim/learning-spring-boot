@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Learning Spring Boot</title>
+</head>
+<body>
+<h1 th:text="'Hello, ' + ${name} + '!'" />
+<h2>Liste de mes chapitres</h2>
+<h3>Test du remote avec rafraîchissement automatique</h3>
+<table>
+    <tr th:each="chapter : ${chapters}">
+        <td th:text="${chapter.id}"/>
+        <td th:text="${chapter.name}"/>
+    </tr>
+</table>
+</body>
+</html>
