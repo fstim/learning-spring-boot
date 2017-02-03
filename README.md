@@ -64,6 +64,9 @@ Par défaut, CRaSH propose quelques commandes :
 Il est possible de créer ses propres commandes. Pour ce faire, il suffit de les déposer dans le répertoire 'resources/commands'.
 Ceci permet par exemple d'accéder aux '/metrics' ou au '/health' proposés par actuator mais en SSH.
 
+Une fois l'application redéployée, il suffit de s'y connecter en SSH : 'ssh - p 2000 user@localhost'.
+Le mot de passe est celui indiqué dans les logs de démarrage du Spring Boot. A l'aide de la commande 'help', on peut accéder aux commandes disponibles. Même celles créées par nos soins.
+
 TODO
 ====
 Regarder SpringBoot Management Console
